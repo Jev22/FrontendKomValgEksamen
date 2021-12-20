@@ -9,13 +9,12 @@ function navbar() {
   const navbar = `<div class="topnav d-flex container">
                     <a href="index.html">
                       <div class="logoWrapper">
-                        <i class="fas fa-candidate"></i>
-                        <p>Stutteriet</p>
-                      </div>
+                        <i class="fa-nav"></i>
+                                              </div>
                     </a>
                     <div class="aLinksWrapper">
-                      <a class="whiteFlicker" href="index.html" class="">Forside</a>
-                      <a class="yellowFlicker" href="viewCandidate.html">Kandidater</a>
+                      <a class="whiteFlicker" href="viewCandidates.html">Kandidater</a>
+                      <a class="whiteFlicker" href="createCandidate.html">Opret Kandidat</a>
                       </div>
                   </div>`;
   nav.insertAdjacentHTML("afterbegin", navbar);
